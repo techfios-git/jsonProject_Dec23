@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.53 sec <<< FAILURE! - in TestSuite
+userShouldBeAbleToCreateNewCustomer(test.AddCustomerTest)  Time elapsed: 0.092 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Shihab\Selenium_Dec23\JsonProject\drivers\chromedriver.exe
+	at test.AddCustomerTest.userShouldBeAbleToCreateNewCustomer(AddCustomerTest.java:36)
+
+validUserShouldBeAbleToLogin(test.LoginTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Shihab\Selenium_Dec23\JsonProject\drivers\chromedriver.exe
+	at test.LoginTest.validUserShouldBeAbleToLogin(LoginTest.java:26)
+

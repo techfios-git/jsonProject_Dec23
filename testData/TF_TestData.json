@@ -1,0 +1,41 @@
+{
+  "TestData": "testDataGSON",
+	"LoginInfo":
+			{
+				"UserName": "demo@codefios.com",
+				"Password" : "abc123",
+				"ValidationTextLogin" : "Dashboard",
+				"ValidationUserAlertText" : "Please enter your user name",
+				"ValidationPasswordAlertText" : "Please enter your password"
+				
+			},
+	
+	"AddContact": 
+		
+			{
+				"FullName": "Json Project",  
+				"Company": "Techfios",
+				"Email": "jsonproject@gmail.com",
+				"Phone": "1234567",  
+				"Address":
+						[
+							{ 
+								"Street": "2741 E Belt Line",
+								"City": "Carrollton",
+								"State": "TX",
+								"Zip": "75006",
+								"Country": "Antarctica"
+							},
+							{ 
+								"Street": "325 S 69th St",
+								"City": "Upper Darby",
+								"State": "PA",
+								"Zip": "19082",
+								"Country": "Australia"
+							}
+						],
+					
+				"Group": "Selenium",
+				"ValidationTextAddCustomer" : "New Customer"
+			}
+}  
